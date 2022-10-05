@@ -17,7 +17,7 @@ YouTube Videos:
 
 The PCB can be printed from the [Arkanoid Multi PCBWay Shared Project](https://www.pcbway.com/project/shareproject/Arkanoid_Multi_PCB_v1_1_5169cf60.html) or Gerber files and DesignSpark files can be found in this repo in the 'PCB' folder.
 
-## Print MPC Bypass PCB
+## Print MCU Bypass PCB
 
 This solution works in conjunction with the MCU Bypass PCB by mdeslaur on GitHub / KLOV. These can be printed from the [MCU Bypass PCBWay Shared Project](https://www.pcbway.com/project/shareproject/Arkanoid_MCU_Bypass_PCB_v1_2_2c4eb5f2.html) or Gerber files are available from the [Arkanoid MCU Bypass](https://github.com/mdeslaur/arkanoid-mpu-bypass) repo on GitHub.
 
