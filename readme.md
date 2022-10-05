@@ -21,7 +21,7 @@ The PCB can be printed from the [Arkanoid Multi PCBWay Shared Project](https://w
 
 This solution works in conjunction with the MCU Bypass PCB by mdeslaur on GitHub / KLOV. These can be printed from the [MCU Bypass PCBWay Shared Project](https://www.pcbway.com/project/shareproject/Arkanoid_MCU_Bypass_PCB_v1_2_2c4eb5f2.html) or Gerber files are available from the [Arkanoid MCU Bypass](https://github.com/mdeslaur/arkanoid-mpu-bypass) repo on GitHub.
 
-Arkanoid and Tournament Arkanoid use different MCUs as a form of copy protection, so this is n=bypassed entirely. 68705 are becoming more scarce so this is a great benefit to help preserve Arkanoid PCBs.
+Arkanoid and Tournament Arkanoid use different MCUs as a form of copy protection, so this is bypassed entirely. 68705 are becoming more scarce so this is a great benefit to help preserve Arkanoid PCBs.
 
 ## Add ROMs
 
