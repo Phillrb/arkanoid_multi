@@ -1,0 +1,232 @@
+Plot Report
+-----------
+
+Report Written:     Wednesday, October 05, 2022
+Design Path:        C:\Users\phill\Documents\dev\phill\arkanoid\DesignSpark\ArkanoidMulti.pcb
+Design Title:       
+Created:            05/11/2018 18:39:19
+Last Saved:         05/10/2022 11:08:22
+Editing Time:       151874 min
+Units:              thou (precision 0)
+
+
+Device Settings
+===============
+
+
+Gerber Settings
+===============
+
+    Leading zero suppression.
+    G01 assumed throughout.
+    Line termination <*> <CR> <LF>.
+    3.5 format absolute inches.
+    Format commands defined in Gerber file.
+    Aperture table defined in Gerber file.
+    Hardware arcs allowed.
+
+
+Drill Settings
+==============
+
+    Excellon Format 2
+    Format 3.5 absolute in inches.
+    Zero suppression Leading
+
+
+
+Plots Output
+============
+
+
+Gerber Output
+=============
+
+C:\Users\phill\Documents\dev\phill\arkanoid\DesignSpark\Plots\ArkanoidMulti - Top Silkscreen.gbr
+
+    Layers:
+    ------------------
+    Top Silkscreen
+
+    D-Code Shape  (thou)
+    -----------------------
+    D16    Round 5.00
+
+Gerber Output
+=============
+
+C:\Users\phill\Documents\dev\phill\arkanoid\DesignSpark\Plots\ArkanoidMulti - Top Copper.gbr
+
+    Layers:
+    --------------
+    Top Copper
+
+    D-Code Shape  (thou)
+    -----------------------
+    D10    Round 20.00
+    D11    Round 15.00
+    D12    Round 60.00
+    D13    Square 60.00
+    D14    Round 48.00
+    D15    Round 32.00
+
+Gerber Output
+=============
+
+C:\Users\phill\Documents\dev\phill\arkanoid\DesignSpark\Plots\ArkanoidMulti - Top Copper (Resist).gbr
+
+    Layers:
+    --------------
+    Top Copper
+
+    D-Code Shape  (thou)
+    -----------------------
+    D17    Round 70.00
+    D18    Square 70.00
+    D19    Round 58.00
+    D70    Round 42.00
+
+Gerber Output
+=============
+
+C:\Users\phill\Documents\dev\phill\arkanoid\DesignSpark\Plots\ArkanoidMulti - Top Copper (Paste).gbr
+
+    Layers:
+    --------------
+    Top Copper
+
+    D-Code Shape  (thou)
+    -----------------------
+
+Gerber Output
+=============
+
+C:\Users\phill\Documents\dev\phill\arkanoid\DesignSpark\Plots\ArkanoidMulti - Bottom Copper.gbr
+
+    Layers:
+    -----------------
+    Bottom Copper
+
+    D-Code Shape  (thou)
+    -----------------------
+    D10    Round 20.00
+    D11    Round 15.00
+    D12    Round 60.00
+    D13    Square 60.00
+    D14    Round 48.00
+    D15    Round 32.00
+
+Gerber Output
+=============
+
+C:\Users\phill\Documents\dev\phill\arkanoid\DesignSpark\Plots\ArkanoidMulti - Bottom Copper (Resist).gbr
+
+    Layers:
+    -----------------
+    Bottom Copper
+
+    D-Code Shape  (thou)
+    -----------------------
+    D17    Round 70.00
+    D18    Square 70.00
+    D19    Round 58.00
+    D70    Round 42.00
+
+Gerber Output
+=============
+
+C:\Users\phill\Documents\dev\phill\arkanoid\DesignSpark\Plots\ArkanoidMulti - Bottom Copper (Paste).gbr
+
+    Layers:
+    -----------------
+    Bottom Copper
+
+    D-Code Shape  (thou)
+    -----------------------
+
+Gerber Output
+=============
+
+C:\Users\phill\Documents\dev\phill\arkanoid\DesignSpark\Plots\ArkanoidMulti - Gerber Drill Data - [Through Hole].gbr
+
+    Layers:
+    ------------------
+    [Through Hole]
+
+    D-Code Shape  (thou)
+    -----------------------
+    D71    Round 35.00
+    D20    Round 24.00
+    D21    Round 16.00
+
+NC Drill Output
+===============
+
+C:\Users\phill\Documents\dev\phill\arkanoid\DesignSpark\Plots\ArkanoidMulti - NC Drill Data - [Through Hole].drl
+
+    Output:
+    ---------------------------
+    Plated Round Drill Holes
+    Plated Slots
+
+    Tool  Size           Count   ID
+    --------------------------------------
+    T001  0.01600 inches 29    C
+    T002  0.02400 inches 7     B
+    T003  0.03500 inches 112   A
+    --------------------------------------
+    Total                148
+    --------------------------------------
+
+C:\Users\phill\Documents\dev\phill\arkanoid\DesignSpark\Plots\ArkanoidMulti - NC Drill Data - [Through Hole] (Unplated).drl
+
+    Output:
+    -----------------------------
+    Unplated Round Drill Holes
+    Unplated Slots
+
+    Tool  Size Count   ID
+    ----------------------------
+    ----------------------------
+    Total      0
+    ----------------------------
+
+
+Gerber Output
+=============
+
+C:\Users\phill\Documents\dev\phill\arkanoid\DesignSpark\Plots\ArkanoidMulti - Drill Ident Drawing - [Through Hole].gbr
+
+    Layers:
+    ------------------
+    [Through Hole]
+
+
+Drill Ident Drawing
+===================
+
+    Drill Plated Size Shape ID
+    -----------------------------------
+    35    Y      100  Round A
+    24    Y      100  Round B
+    16    Y      100  Round C
+
+    D-Code Shape  (thou)
+    -----------------------
+    D16    Round 5.00
+    D22    Round 100.00
+
+Gerber Output
+=============
+
+C:\Users\phill\Documents\dev\phill\arkanoid\DesignSpark\Plots\ArkanoidMulti - Board Outline.gbr
+
+    Layers:
+    ------------------
+    Board Outlines
+
+    D-Code Shape  (thou)
+    -----------------------
+    D16    Round 5.00
+
+End Of Report.
