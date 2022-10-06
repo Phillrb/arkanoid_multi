@@ -6,6 +6,8 @@ The Arkanoid-multi holds Arkanoid and Tournament Arkanoid ROMs and bank-switches
 
 Press and hold the on-board button, or wire-up an external button, to switch between games.
 
+[<img src="./res/Arkanoid_PCB.jpg" width="250" />](./res/Arkanoid_PCB.jpg)
+
 See [KLOV thread](https://forums.arcade-museum.com/threads/arkanoid-freeplay-rom.508179/) for more details.
 
 ## YouTube Videos
@@ -17,11 +19,15 @@ See [KLOV thread](https://forums.arcade-museum.com/threads/arkanoid-freeplay-rom
 
 The PCB can be printed from the [Arkanoid Multi PCBWay Shared Project](https://www.pcbway.com/project/shareproject/Arkanoid_Multi_PCB_v1_1_5169cf60.html) or Gerber files and DesignSpark files can be found in this repo in the 'PCB' folder.
 
+[<img src="./res/Multi_PCB.jpg" width="250" />](./res/Multi_PCB.jpg)
+
 The Multi PCB hosts a 27c160 in 16-bit mode and delivers data in parallel to the vacated color-PROM sockets. The ATTiny controls bank-switching of this EPROM, as well as the other 5 EPROMS on the game board, waits for a button to be held down for 4 seconds, and then increments its address lines. Address lines A0 to A3 can be hooked up to switch between up to 16 different games (in theory). A reset line is used to reset the game board when a switch has been made.
 
 ## Print MCU Bypass PCB
 
 This solution works in conjunction with the MCU Bypass PCB by @mdeslaur on GitHub / KLOV. These can be printed from the [MCU Bypass PCBWay Shared Project](https://www.pcbway.com/project/shareproject/Arkanoid_MCU_Bypass_PCB_v1_2_2c4eb5f2.html) or Gerber files are available from the [Arkanoid MCU Bypass](https://github.com/mdeslaur/arkanoid-mpu-bypass) repo on GitHub.
+
+[<img src="./res/MCU_Bypass_PCB.jpg" width="250" />](./res/MCU_Bypass_PCB.jpg)
 
 Arkanoid and Tournament Arkanoid use different MCUs as a form of copy protection, so this is bypassed entirely by some code changes based upon the 'arkatayt' boot ROMs. 68705 are becoming more scarce so not requiring them is a great benefit to help further preserve Arkanoid PCBs.
 
