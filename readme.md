@@ -8,11 +8,11 @@ Press and hold the on-board button, or wire-up an external button, to switch bet
 
 See [KLOV thread](https://forums.arcade-museum.com/threads/arkanoid-freeplay-rom.508179/) for more details.
 
-YouTube Videos:
+## YouTube Videos
 
-- https://youtu.be/M5QKxrMqJa0
-- https://youtu.be/AsMQ4WYeM8E
-
+[![Video](https://img.youtube.com/vi/AsMQ4WYeM8E/maxresdefault.jpg)](https://www.youtube.com/watch?v=AsMQ4WYeM8E)
+[![Video](https://img.youtube.com/vi/M5QKxrMqJa0/maxresdefault.jpg)](https://www.youtube.com/watch?v=M5QKxrMqJa0)
+    
 ## Print Arkanoid Multi PCB
 
 The PCB can be printed from the [Arkanoid Multi PCBWay Shared Project](https://www.pcbway.com/project/shareproject/Arkanoid_Multi_PCB_v1_1_5169cf60.html) or Gerber files and DesignSpark files can be found in this repo in the 'PCB' folder.
@@ -21,7 +21,7 @@ The Multi PCB hosts a 27c160 in 16-bit mode and delivers data in parallel to the
 
 ## Print MCU Bypass PCB
 
-This solution works in conjunction with the MCU Bypass PCB by mdeslaur on GitHub / KLOV. These can be printed from the [MCU Bypass PCBWay Shared Project](https://www.pcbway.com/project/shareproject/Arkanoid_MCU_Bypass_PCB_v1_2_2c4eb5f2.html) or Gerber files are available from the [Arkanoid MCU Bypass](https://github.com/mdeslaur/arkanoid-mpu-bypass) repo on GitHub.
+This solution works in conjunction with the MCU Bypass PCB by @mdeslaur on GitHub / KLOV. These can be printed from the [MCU Bypass PCBWay Shared Project](https://www.pcbway.com/project/shareproject/Arkanoid_MCU_Bypass_PCB_v1_2_2c4eb5f2.html) or Gerber files are available from the [Arkanoid MCU Bypass](https://github.com/mdeslaur/arkanoid-mpu-bypass) repo on GitHub.
 
 Arkanoid and Tournament Arkanoid use different MCUs as a form of copy protection, so this is bypassed entirely by some code changes based upon the 'arkatayt' boot ROMs. 68705 are becoming more scarce so not requiring them is a great benefit to help further preserve Arkanoid PCBs.
 
@@ -35,7 +35,7 @@ Add the following ROM zip files to 'source' dir:
 
 ## Create Patch files
 
-Create the following files using 'xdelta patcher' on arkatayt and arkatour ROMs, and copy them to 'source' dir. Instructions can be found in the [KLOV thread](https://forums.arcade-museum.com/threads/arkanoid-freeplay-rom.508179/). Patch files for xdelta can be found in the 'patch' directory.
+Create the following files using 'xdelta patcher' on arkatayt and arkatour ROMs, and copy them to 'source' dir. Instructions can be found in the [KLOV thread](https://forums.arcade-museum.com/threads/arkanoid-freeplay-rom.508179/). Patch files for xdelta (by @mdeslaur) can be found in the 'patch' directory. These add freeplay, bypass the MCU and address a few bugs. 
 
 - a75-27_patched.ic17
 - a75-28_patched.ic16
