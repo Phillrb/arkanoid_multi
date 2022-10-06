@@ -8,11 +8,9 @@ Press and hold the on-board button, or wire-up an external button, to switch bet
 
 See [KLOV thread](https://forums.arcade-museum.com/threads/arkanoid-freeplay-rom.508179/) for more details.
 
-YouTube Videos:
-
-- https://youtu.be/M5QKxrMqJa0
-- https://youtu.be/AsMQ4WYeM8E
-
+[![Video](https://img.youtube.com/vi/AsMQ4WYeM8E/maxresdefault.jpg)](https://www.youtube.com/watch?v=AsMQ4WYeM8E)
+[![Video](https://img.youtube.com/vi/M5QKxrMqJa0/maxresdefault.jpg)](https://www.youtube.com/watch?v=M5QKxrMqJa0)
+    
 ## Print Arkanoid Multi PCB
 
 The PCB can be printed from the [Arkanoid Multi PCBWay Shared Project](https://www.pcbway.com/project/shareproject/Arkanoid_Multi_PCB_v1_1_5169cf60.html) or Gerber files and DesignSpark files can be found in this repo in the 'PCB' folder.
