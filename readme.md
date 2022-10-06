@@ -61,16 +61,16 @@ The 'output' dir should now contain the following files for burning to EPROMs:
 
 The binary in 'ATTiny85_Bankswitch' can be burnt to an ATTiny85.
 
-Hold the button for 3 seconds to switch game.
+Hold the button for 4 seconds to switch game.
 
 If you would like a different switching mechanism, or you want to target a different ATTiny (13, 25 or 45), then all the code can be found at the [Multi ROM Controller](https://github.com/Phillrb/multi_rom_controller) repo on GitHub.
 
 ## Construct Mod
 
-The Arkanoid-Multi PCB fits into the three sockets from the color PROMs and hosts the 27c160, ATTiny and a push button. Please keep your original PROM ICs safe as you may want to remove the mod in the future.
+The Arkanoid-Multi PCB fits into the three sockets from the color PROMs and hosts the 27c160, ATTiny and a push button. Please keep your original ICs safe as you may want to remove the mod in the future.
 
-The A0 line needs to be wired to pin 1 of all five 27c512 EPROMs. Pin 1 should not make a connection with the hosting PCB. These EPROMs should be fitted into round turned-pin socket strips. Heat up and remove the round socket that pin 1 will go into so that there is an air-gap between pin 1 and the hosting PCB. You may need to slightly trim pin 1 of the EPROM so that it doesn't make contact.
+The A0 line needs to be wired to pin 1 of all five 27c512 EPROMs. Pin 1 should not make a connection with the hosting PCB. These EPROMs should be fitted into round turned-pin socket strips. Heat up and remove the round pin socket that pin 1 of the EPROM will go into so that there is an air-gap between pin 1 and the hosting PCB. You may need to slightly trim pin 1 of the EPROM so that it doesn't make contact.
 
-Wire the NXT line to an external button. Arkanoid conveniently has 'P1 button 2' on the edge connector wired up (22) but does not make use of it, or alternatively use the P1 Start button (12). Arkanoid is 'Taito Classic' pinout.
+Wire the NXT line to an external button. Arkanoid conveniently has 'P1 button 2' on the edge connector wired up (22) but does not make use of it, or alternatively use the 'P1 Start button' (12). Arkanoid is 'Taito Classic' pinout.
 
 The last line that needs to be hooked up is the RST line. Solder a wire from it to pin 1 of IC32 (LS273) as this is the CPU reset line. 
