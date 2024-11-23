@@ -49,23 +49,24 @@ def make_combined_file(SRC1, SRC2, DST, HASH, OUT, NAME):
     os.rename(DST, OUT)
     print(">>> " + NAME + " is at: " + OUT)
 
-def check_rom(SRC, HASH, NAME):
+def check_exists(SRC, NAME):
     if not os.path.exists(SRC): 
-        sys.exit("ERROR: " + NAME + " ROM not found at: " + SRC)
+        sys.exit("ERROR: " + NAME + " File not found at: " + SRC)
+    print("- " + NAME + " File found")
+
+def check_rom(SRC, HASH, NAME):
+    check_exists(SRC, NAME)
     tmpHash = hash_file(SRC)
     if tmpHash != HASH:
         sys.exit("ERROR: " + NAME + " ROM hash '" + tmpHash + "' does not match expected '" + HASH + "'")
-    print("- " + NAME + " ROM found")
+    print("- " + NAME + " ROM found and validated")
 
 
 SCRIPT_DIR = os.path.dirname(__file__)
 SRC_DIR =  os.path.abspath(os.path.join(SCRIPT_DIR, 'source'))
 ARKANOID_ROM = os.path.join(SRC_DIR, "arkanoid.zip")
-ARKANOID_HASH = "bc9454d02a4c9ad5020c1fad810180599a084fb9"
 ARKATAYT_ROM = os.path.join(SRC_DIR, "arkatayt.zip")
-ARKATAYT_HASH = "d04529015c1569db7e3d2d276db6901dbfa672ec"
 ARKATOUR_ROM = os.path.join(SRC_DIR, "arkatour.zip")
-ARKATOUR_HASH = "9b1fc49cef1b7c6cb77fe55eae4514562c22b174"
 TMP_DIR =  os.path.abspath(os.path.join(SCRIPT_DIR, 'tmp'))
 ARKANOID_IC22 = os.path.join(TMP_DIR,"a75-09.ic22")
 ARKANOID_IC23 = os.path.join(TMP_DIR,"a75-08.ic23")
@@ -115,9 +116,9 @@ DST_IC17_81_PATCH_COMBINED = os.path.join(OUT_DIR, IC17_81_PATCH_COMBINED_NAME)
 
 print ("Looking for original ROMs:")
 
-check_rom(ARKANOID_ROM, ARKANOID_HASH, "Original Arkanoid")
-check_rom(ARKATAYT_ROM, ARKATAYT_HASH, "Boot Arkanoid 'arkatayt'")
-check_rom(ARKATOUR_ROM, ARKATOUR_HASH, "Tournament Arkanoid")
+check_exists(ARKANOID_ROM, "Original Arkanoid zip")
+check_exists(ARKATAYT_ROM, "Boot Arkanoid 'arkatayt' zip")
+check_exists(ARKATOUR_ROM, "Tournament Arkanoid zip")
 check_rom(ARKATAYT_IC16_PATCH, ARKATAYT_IC16_PATCH_HASH, "Patched Arkatayt ic16")
 check_rom(ARKATAYT_IC17_PATCH, ARKATAYT_IC17_PATCH_HASH, "Patched Arkatayt ic17")
 check_rom(ARKATOUR_IC81_PATCH, ARKATOUR_IC81_PATCH_HASH, "Patched Tournament ic81")
