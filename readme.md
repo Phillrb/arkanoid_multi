@@ -48,8 +48,8 @@ Add the following ROM zip files to 'source' dir:
 
 Create the following files using 'xdelta patcher' on arkatayt and arkatour ROMs, and copy them to 'source' dir. Instructions can be found in the [KLOV thread](https://forums.arcade-museum.com/threads/arkanoid-freeplay-rom.508179/). Patch files for xdelta (by @mdeslaur) can be found in the 'patch' directory. These add freeplay, bypass the MCU and address a few bugs. 
 
-- a75-27_patched.ic17
-- a75-28_patched.ic16
+- a75__27_patched.ic17
+- a75__28_patched.ic16
 - ic81-v_patched.3f
 - ic82-w_patched.5f
 
@@ -63,12 +63,12 @@ Run the python3 script 'make_multi_roms.py':
 
 The 'output' dir should now contain the following files for burning to EPROMs:
 
-- multi_color_proms.bin (27c160)
-- multi_ic16_ic82.bin (27c512)
-- multi_ic17_ic81.bin (27c512)
-- multi_ic62.bin (27c512)
-- multi_ic63.bin (27c512)
-- multi_ic64.bin (27c512)
+- a75_multi_color_prom_27c160.bin (27c160)
+- a75_multi_patched.ic16 (27c512)
+- a75_multi_patched.ic17 (27c512)
+- a75_multi.ic62 (27c512)
+- a75_multi.ic63 (27c512)
+- a75_multi.ic64 (27c512)
 
 ## Burn ATTiny
 
